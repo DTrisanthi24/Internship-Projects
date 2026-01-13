@@ -1,0 +1,85 @@
+📄 Personal Portfolio Webpage – Documentation
+
+🔹 Project Overview and Objectives
+This project is a personal portfolio webpage built using pure HTML.
+It serves as a digital introduction to showcase:
+
+My profile and career aspirations
+
+Core technical skills (HTML, CSS, JavaScript, Bootstrap)
+
+A contact form for professional outreach
+
+Objectives:
+
+Create a clean, semantic, and accessible webpage structure
+
+Demonstrate foundational front‑end development skills without external frameworks
+
+Provide recruiters and collaborators with a simple way to view your skills and contact you
+
+Document the project as part of your Web Development Internship at The Developers Arena (Jan 10 – Apr 6, 2026)
+
+🔹 Setup and Installation Instructions
+Clone or download the repository
+
+bash
+git clone https://github.com/your-username/portfolio-webpage.git
+Open the HTML file
+
+Navigate to the project folder
+
+Double‑click index.html or open it in any modern browser (Chrome, Firefox, Edge)
+
+Optional: Preview with local server
+
+bash
+npx http-server
+Visit http://localhost:8080 to view your site.
+
+Formspree Setup
+
+Replace yourFormID in the form action URL with your actual Formspree ID
+
+This enables the contact form to send messages to your email
+
+🔹 Code Structure Explanation
+Code
+index.html # Main HTML file
+└── <header> # Title, profile image, navigation links
+└── <main> # Content sections
+├── <section id="about"> # About Me description
+├── <section id="skills"> # Skills listed in <ul>
+└── <section id="contact"> # Contact form with inputs
+└── <footer> # Copyright and branding
+Header → Contains portfolio title, profile image, and navigation bar
+
+Main → Divided into About, Skills, and Contact sections
+
+Footer → Simple branding and copyright
+
+🔹 Screenshots of Working Application
+Suggested screenshots to include in your repo:
+
+Portfolio homepage (header + navigation)
+
+About Me section
+
+Skills list
+
+Contact form with input fields
+
+Footer
+
+🔹 Explanation of How Technical Requirements Were Met
+✅ Semantic HTML5 → Used <header>, <main>, <section>, <footer> for clear structure
+
+✅ Accessibility → Added alt text for images, labels for form inputs, and required attributes
+
+✅ Responsive Basics → Used relative sizing (width, height) and simple layout that adapts to different screen sizes
+
+✅ Form Integration → Contact form connected to Formspree for message handling
+
+✅ Clean Code Practices → Organized sections, indentation, and comments for readability
+
+✅ Internship Alignment → Matches weekly tasks by demonstrating HTML structure, form handling, and project documentation
