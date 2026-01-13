@@ -1,6 +1,0 @@
-# This project is built with pure HTML
-# No Python dependencies required
-
-# Optional tools for development / deployment:
-browser-sync    # For live reloading during development
-http-server     # Simple local server to preview HTML files
