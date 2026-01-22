@@ -1,5 +1,6 @@
 ~ Personal Portfolio Webpage
 🔹 Project Overview
+
 This project is a personal portfolio webpage built using pure HTML.
 It highlights my profile, technical skills, and provides a contact form for professional outreach.
 The webpage is designed with a clean, semantic structure and serves as a digital introduction for recruiters, collaborators, and internship reviewers.
@@ -7,6 +8,7 @@ The webpage is designed with a clean, semantic structure and serves as a digital
 This project is part of my Web Development Internship at The Developers Arena (Jan 10 – Apr 6, 2026), where I complete 12 weekly tasks focused on front‑end development.
 
 🔹 Objectives
+
 Create a simple, accessible, and semantic HTML webpage.
 
 Showcase career goals and technical skills.
@@ -16,6 +18,7 @@ Provide a working contact form using Formspree integration.
 Document the project professionally for recruiters and collaborators.
 
 🔹 Setup & Installation Instructions
+
 Clone or download the repository
 
 bash
@@ -39,6 +42,7 @@ Replace yourFormID in the form action URL with your actual Formspree ID
 This enables the contact form to send messages to your email
 
 🔹 Code Structure
+
 Code
 index.html         # Main HTML file
 └── <header>       # Title, profile image, navigation links
@@ -49,6 +53,7 @@ index.html         # Main HTML file
 └── <footer>       # Copyright and branding
 
 🔹 Technical Requirements Met
+
 ✅ Semantic HTML5 → Used <header>, <main>, <section>, <footer> for clear structure
 
 ✅ Accessibility → Added alt text for images, labels for form inputs, and required attributes
@@ -60,6 +65,7 @@ index.html         # Main HTML file
 ✅ Clean Code Practices → Organized sections, indentation, and comments for readability
 
 🔹 Challenges Faced
+
 Handling image path issues (absolute vs. relative) to ensure portability.
 
 Configuring Formspree integration correctly for the contact form.
@@ -69,6 +75,7 @@ Maintaining readability and accessibility using only HTML without CSS or JavaScr
 Writing clear and concise documentation for recruiters and collaborators.
 
 🔹 Future Improvements
+
 Add CSS styling for better design and responsiveness.
 
 Integrate JavaScript for interactivity (form validation, dynamic content).
