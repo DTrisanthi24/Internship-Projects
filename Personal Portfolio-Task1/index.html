@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Portfolio Webpage</title>
+  <!-- Link external CSS -->
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
@@ -16,26 +18,22 @@
     <nav>
       <a href="#about">About</a> | 
       <a href="#skills">Skills</a> | 
-      <a href="#contact">Contact</a>
-      <a href="#connectivity"></a>
+      <a href="#projects">Projects</a> | 
+      <a href="#certificates">Certificates</a> | 
+      <a href="#contact">Contact</a> | 
     </nav>
     <hr>
   </header>
 
   <!-- Main Content -->
   <main>
-    <!-- About Section -->
     <section id="about">
       <h2>👩‍💻 About Me</h2>
-      <p>
-        Aspiring developer with a foundation in web technologies, 
-        seeking opportunities to apply problem‑solving skills and 
-        deliver meaningful digital solutions while growing with the team.
-      </p>
-      <br>
+      <p>Aspiring developer with a foundation in web technologies, 
+         seeking opportunities to apply problem‑solving skills and 
+         deliver meaningful digital solutions while growing with the team.</p>
     </section>
 
-    <!-- Skills Section -->
     <section id="skills">
       <h2>🛠 Skills</h2>
       <ul>
@@ -43,38 +41,49 @@
         <li>CSS</li>
         <li>JavaScript</li>
         <li>Bootstrap</li>
+        <li>Core Java</li>
       </ul>
-      <br>
     </section>
 
-    <!-- Contact Section -->
+    <section id="projects">
+      <h2>📂 Projects</h2>
+      <ul>
+        <li><strong>Responsive Portfolio Web Page</strong> – 
+          <a href="https://github.com/DTrisanthi24/responsive-portfolio.git" target="_blank">GitHub Link</a>
+        </li>
+        <li><strong>Smart DOB Analyzer</strong> – 
+          <a href="https://github.com/DTrisanthi24/smart-dob-analyzer.git" target="_blank">GitHub Link</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="certificates">
+      <h2>🎓 Certificates</h2>
+      <ul>
+        <li>Web Application Development – Internshala</li>
+        <li>Front End Development – Great Learning</li>
+      </ul>
+    </section>
+
     <section id="contact">
       <h2>📬 Contact Me</h2>
       <form action="https://formspree.io/f/yourFormID" method="POST">
-        <p>
-          <label for="name">Name:</label><br>
-          <input type="text" id="name" name="name" required>
-        </p>
-        <p>
-          <label for="email">Email:</label><br>
-          <input type="email" id="email" name="_replyto" required>
-        </p>
-        <p>
-          <label for="message">Message:</label><br>
-          <textarea id="message" name="message" rows="5" required></textarea>
-        </p>
-        <p>
-          <button type="submit">Send Message</button>
-        </p>
+        <p><label for="name">Name:</label><br>
+           <input type="text" id="name" name="name" required></p>
+        <p><label for="email">Email:</label><br>
+           <input type="email" id="email" name="_replyto" required></p>
+        <p><label for="message">Message:</label><br>
+           <textarea id="message" name="message" rows="5" required></textarea></p>
+        <p><button type="submit">Send Message</button></p>
       </form>
-      <br>
     </section>
+
   </main>
 
   <!-- Footer -->
   <footer>
     <hr>
-    <p>© 2025 Dodde Trishanthi 💛 | Built with pure HTML</p>
+    <p>© 2025 Dodde Trishanthi 💛 | Built with pure HTML & CSS</p>
   </footer>
 
 </body>
