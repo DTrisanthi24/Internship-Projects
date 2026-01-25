@@ -1,0 +1,83 @@
+~ Project Overview
+
+This project is a personal portfolio webpage styled with a custom CSS file (style.css).
+The design emphasizes:
+
+A multi‑color animated gradient background for a dynamic, modern look.
+
+Glassmorphism cards to highlight sections elegantly.
+
+Responsive design that adapts to mobile, tablet, and desktop screens.
+
+Classic Times New Roman font for a formal, professional feel.
+
+~ Objectives:
+
+Showcase technical and creative CSS skills.
+
+Build a recruiter‑friendly portfolio that demonstrates projects, skills, and certificates.
+
+Ensure accessibility and readability while maintaining visual appeal.
+
+~ Setup and Installation Instructions
+
+Clone or download the project folder:
+
+bash
+git clone <your-repo-link>
+
+Ensure the following files are present:
+
+index.html → webpage structure
+
+style.css → styling and animations
+
+
+Link the CSS file in the HTML <head>:
+
+html
+<link rel="stylesheet" href="style.css">
+Open index.html in any modern browser (Chrome, Edge, Firefox).
+
+No external dependencies are required - the project runs with pure HTML & CSS.
+
+3. Code Structure Explanation
+Code
+project-folder/
+│
+├── index.html        # Contains webpage structure (header, sections, footer)
+├── style.css         # Contains gradient styling, animations, responsiveness
+
+
+index.html
+
+Header: Title, profile image, navigation bar.
+
+Main: Sections for About, Skills, Projects, Certificates, Contact, Resume.
+
+Footer: Copyright.
+
+
+style.css
+
+Root variables for gradients and card styling.
+
+Animated background using @keyframes gradientBG.
+
+Glassmorphism effects with backdrop-filter.
+
+Hover animations for links, buttons, and list items.
+
+Responsive design with media queries.
+
+
+~ Explanation of How Technical Requirements Were Met
+Multi‑Gradient Background: Implemented using linear-gradient and @keyframes gradientBG for smooth transitions.
+
+Glassmorphism Cards: Achieved with rgba transparency and backdrop-filter: blur(10px) for semi‑transparent sections.
+
+Hover Effects: Navigation links, skills list, and buttons scale and change color on hover.
+
+Responsive Design: Media queries adjust font sizes, section widths, and navigation layout for smaller screens.
+
+Custom Font: Used Times New Roman for a formal, professional style without external imports.
