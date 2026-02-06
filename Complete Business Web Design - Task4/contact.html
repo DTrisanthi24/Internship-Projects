@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function validateForm() {
+      let name = document.forms["contactForm"]["name"].value;
+      let email = document.forms["contactForm"]["email"].value;
+      let message = document.forms["contactForm"]["message"].value;
+      if (name == "" || email == "" || message == "") {
+        alert("All fields must be filled out!");
+        return false;
+      }
+      return true;
+    }
+  </script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <h2>Contact Us</h2>
+  <form name="contactForm" onsubmit="return validateForm()">
+    <input type="text" name="name" placeholder="Your Name"><br>
+    <input type="email" name="email" placeholder="Your Email"><br>
+    <textarea name="message" placeholder="Your Message"></textarea><br>
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
